@@ -10,7 +10,7 @@ environment:
 instance_type: Standard_DS4_v2
 instance_count: 1
 environment_variables:
-  AZSEARCH_KEY: "eqrgFdoK00zeV1swQWQPohGAYhvxu0lvbvOiNl5ahmAzSeByMebH"
-  INDEX_NAME: "maya-index"
+  AZSEARCH_KEY: "YOUR_AZ_SEARCH_KEY"
+  INDEX_NAME: "YOUR_AZ_INDEX_NAME"
   EMB_MODEL: 'sentence-transformers/msmarco-distilbert-base-dot-prod-v3'
-  AZSEARCH_EP: "https://cogsearch001.search.windows.net"
+  AZSEARCH_EP: "YOUR_AZ_SEARCH_EP"
